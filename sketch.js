@@ -9,7 +9,7 @@ function preload(){
   towerImg = loadImage("tower.png");
   doorImg = loadImage("door.png");
   climberImg = loadImage("climber.png");
-  ghostImg = loadImage("ghost-standing.png");
+  ghostImg = loadImage("witch.png");
   spookySound = loadSound("spooky.wav");
 }
 
@@ -20,7 +20,7 @@ function setup() {
   tower.velocityY = 1;
   ghost=createSprite(200,200,30,30);
   ghost.addImage("ghost",ghostImg);
-  ghost.scale=0.4
+  ghost.scale=0.2
   doorGroup=new Group();
   climberGroup=new Group();
   invisibleBlockGroup=new Group();
